@@ -1,0 +1,40 @@
+{
+  "identifier" : "Symptomtrail",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "SYMPTOMTRAIL_PRO_GROUP",
+      "localizations" : [],
+      "name" : "Symptomtrail Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "SYMPTOMTRAIL_PRO_MONTHLY",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Pattern Report + PDF Export",
+              "displayName" : "Symptomtrail Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.symptomdiary.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Symptomtrail Pro Monthly",
+          "subscriptionGroupID" : "SYMPTOMTRAIL_PRO_GROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
